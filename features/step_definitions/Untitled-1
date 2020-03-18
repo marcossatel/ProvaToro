@@ -1,0 +1,32 @@
+
+
+[1] Cultura de Qualidade <> Construir Teste -- "Build quality into the product rather than trying to test it in later"
+	[0] evitar antes que corrigir depois
+	[1] teste não garante ausência de falhas
+	[2] gargalo é o teste
+	[3] bug em produção == teste ruim ?
+	[4] Programmers never get ahead of the testers, because a story is not “done” until it has been tested
+	[5] qualidade como prevenção de problemas, não caçadora deles
+	
+[2] Programar Software <> Desenvolver Software
+
+	[1] "everyone involved in delivering software is a developer"
+
+[3] Quality Assurance como um par de todos no time com foco no valor a ser entregue
+	[1] como ele pode contribuir dentro de todo o ciclo de desenvolvimento?
+		[1] criterio de aceite
+		[2] caminhos de exceção para dev
+		[3] analise de impacto de novas features	
+		[4] apoio na compreensão testes unitarios
+		[5] cria linguagem ubíqua entre negócio e técnico
+		[6] balancemento da regua 
+		
+
+O ponto da experiencia
+	quem passa mais tempo com a aplicação aberta? experiencia ligada nesse know how
+	olhar sobre a performance ux e qa
+	acessibilidade // metas do CoE como guia de acessibilidade (parte visual, codigo tags leitor de tela, teste de acessibilidade)
+
+
+Exemplos de melhoria com qualidade.
+
