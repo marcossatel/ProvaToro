@@ -5,6 +5,7 @@ class LoginPage
     find('input[placeholder=Email]').set email
     find('input[type=password]').set senha
     click_button 'Entrar'
+    
   end
 
   def msg_alerta
