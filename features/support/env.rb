@@ -32,16 +32,8 @@ Capybara.configure do |c|
     c.default_driver = :selenium_chrome
   end
 
-  c.app_host = 'http://ninjamotors.herokuapp.com'
-  c.default_max_wait_time = 5
+  c.app_host = 'https://app.toroinvestimentos.com.br/home/'
+
+  c.default_max_wait_time = 10
 end
 
-ReportBuilder.configure do |config|
-  config.input_path = 'log'
-  config.report_path = 'my_test_report'
-  config.report_types = [:retry, :html]
-  config.report_title = 'My Test Results'
-  config.additional_info = {browser: 'Chrome', environment: 'QA teste'}
-end
-
-ReportBuilder.build_report

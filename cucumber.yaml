@@ -5,5 +5,5 @@ html: --format html --out=log/reports.html
 json: --format json --out=log/reports.json
 bdd: --format pretty
 dot: --format progress
-headless: BROWSER=headless
+headless: BROWSER=headlruyb -versioness
 chrome: BROWSER=chrome

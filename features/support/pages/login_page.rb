@@ -2,15 +2,17 @@ class LoginPage
   include Capybara::DSL
 
   def faz_login(email, senha)
-    find('input[placeholder=Email]').set email
+    sleep 5
+    find('input[id=username]').set email
     find('input[type=password]').set senha
     click_button 'Entrar'
+    
     
   end
 
   def msg_alerta
-    within('form[id=login]') do
-      return find('.alert').text
+    within('modal-panel-content') do
+      return find('form-error-message').text
     end
   end
 end
