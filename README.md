@@ -9,5 +9,5 @@
 
 ## Executando com relatório:
 
-* ``cucumber -t @teste ```
+* ```cucumber -t @teste ```
 
